@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: beige;
+    padding-top: 20px;
+}
+
+body > header {
+    /* mengubah warna background */
+    background-color: cadetblue;
+}
+
+header > p {
+    /* warna tulisan */
+    color:rgb(0, 82, 85);
+    /* supaya tulisan ke tengah */
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(168, 201, 202);
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style: none;
+}
+
+li a {
+    color:cadetblue;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+
+#content {
+    flex: 3;
+    box-shadow: 5px 15px 15px 9px rgba(19, 0, 0);
+    border-radius: 12px;
+}
+
+aside {
+    flex: 1;
+    box-shadow: 5px 15px 15px 9px rgba(0,0,0,0.20);
+    border-radius: 12px;
+}
+
+aside header h2 {
+    color:rgb(2, 72, 75);
+    text-align: center;
+}
+
+#sejarah {
+    padding: 20px;
+}
+
+#geografis {
+    padding: 15px;
+}
+
+#wisata {
+    padding: 15px;
+}
+
